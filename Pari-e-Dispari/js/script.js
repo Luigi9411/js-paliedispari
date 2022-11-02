@@ -13,9 +13,12 @@ function randomNumber(min, max) {
 function winner (){
     if ((sum % 2 == 0) && (divisibility.length = 'pari')){
       Result= 'Hai vinto';
-      return  Result;
-    } else if ((sum % 2 != 0) && (divisibility.length = 'dispari')) {
+    } else if ((sum % 2 != 0) && (divisibility.length = 'pari')) {
       Result= 'Vince il pc';
+    }else if ((sum % 2 == 0) && (divisibility.length = 'dispari')) {
+      Result= 'Vince il pc';
+    }else if ((sum % 2 != 0) && (divisibility.length = 'dispari')) {
+      Result= 'Hai vinto';
     }
     return  Result;
 }  
