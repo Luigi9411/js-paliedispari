@@ -14,7 +14,7 @@ function winner (){
     if ((sum % 2 == 0) && (divisibility.length = 'pari')){
       Result= 'Hai vinto';
       return  Result;
-    } else {
+    } else if ((sum % 2 != 0) && (divisibility.length = 'dispari')) {
       Result= 'Vince il pc';
     }
     return  Result;
