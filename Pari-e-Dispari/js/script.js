@@ -11,15 +11,14 @@ function randomNumber(min, max) {
   }
 
 function winner (){
-    if (sum % 2 == 0){
+    if ((sum % 2 == 0) && (divisibility.length = 'pari')){
       Result= 'Hai vinto';
+      return  Result;
     } else {
       Result= 'Vince il pc';
     }
     return  Result;
 }  
 
-if (divisibility == 'pari'){
-    winner();
-} 
+
 
