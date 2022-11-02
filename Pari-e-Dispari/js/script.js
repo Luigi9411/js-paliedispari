@@ -12,10 +12,10 @@ function randomNumber(min, max) {
   }
 
 function winner (){
-    if ((sum % 2 === 0) && (divisibility === 'pari')){
+    if ((sum % 2 == 0) && (divisibility == 'pari')){
       Result= 'Hai vinto';
       return  Result;
-    } else if (((sum % 2 !== 0) && (divisibility === 'dispari'))) {
+    } else if (((sum % 2 != 0) && (divisibility == 'dispari'))) {
       Result= 'Vince il pc';
       return  Result;
     }
