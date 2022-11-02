@@ -1,3 +1,4 @@
+const divisibility = prompt ('Scegli pari o dispari').toLowerCase;
 const userNumber = parseInt(prompt('Scegli un numero da 1 a 5'));
 let randomPc = randomNumber (1,5);
 let sum = userNumber + randomPc;
@@ -17,3 +18,8 @@ function winner (){
     }
     return  Result;
 }  
+
+if (divisibility == 'pari'){
+    winner();
+} 
+
